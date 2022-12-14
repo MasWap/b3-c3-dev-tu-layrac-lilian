@@ -20,9 +20,7 @@ namespace CalculatriceTU
                 Exception monException = new Exception("Veuillez entrer un nombre valide");
 
                 Console.Clear();
-                Console.WriteLine("---------------");
-                Console.WriteLine("Calculatrice TU");
-                Console.WriteLine("---------------");
+                Console.WriteLine("---------------\nCalculatrice TU\n---------------");
 
                 try
                 {
@@ -32,11 +30,7 @@ namespace CalculatriceTU
                     Console.Write("Entrez le second numéro: ");
                     num2 = Convert.ToDouble(Console.ReadLine());
 
-                    Console.WriteLine("Entrez une option: ");
-                    Console.WriteLine("\t+ : addition");
-                    Console.WriteLine("\t- : soustraction");
-                    Console.WriteLine("\t* : multiplication");
-                    Console.WriteLine("\t/ : division");
+                    Console.WriteLine("Entrez une option:\n\t+ : addition\n\t- : soustraction \n\t* : multiplication\n\t/ : division");
                     Console.Write("Entrez une option:");
 
                     switch (Console.ReadLine())
@@ -70,7 +64,7 @@ namespace CalculatriceTU
 
             } while (Console.ReadLine().ToUpper() == "O");
 
-
+            Console.Clear();
             Console.WriteLine("Bye, l'application se fermera dans 2 secondes");
             Thread.Sleep(2000);
             Environment.Exit(0);

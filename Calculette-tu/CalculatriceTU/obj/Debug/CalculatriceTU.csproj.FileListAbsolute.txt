@@ -6,3 +6,11 @@ D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\Ca
 D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.CoreCompileInputs.cache
 D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.exe
 D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.pdb
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\bin\Debug\CalculatriceTU.exe.config
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\bin\Debug\CalculatriceTU.exe
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\bin\Debug\CalculatriceTU.pdb
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.AssemblyReference.cache
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.SuggestedBindingRedirects.cache
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.CoreCompileInputs.cache
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\obj\Debug\CalculatriceTU.exe
+C:\Users\lilia\Desktop\EPSI\Méthodologie de test\b3-c3-dev-tu-layrac-lilian\Calculette-tu\CalculatriceTU\obj\Debug\CalculatriceTU.pdb
