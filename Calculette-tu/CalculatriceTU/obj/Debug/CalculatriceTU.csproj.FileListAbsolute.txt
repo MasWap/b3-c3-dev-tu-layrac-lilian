@@ -1,0 +1,8 @@
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\bin\Debug\CalculatriceTU.exe.config
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\bin\Debug\CalculatriceTU.exe
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\bin\Debug\CalculatriceTU.pdb
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.AssemblyReference.cache
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.SuggestedBindingRedirects.cache
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.csproj.CoreCompileInputs.cache
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.exe
+D:\EPSI\Methologie de tests\Calculette cn c# console\CalculatriceTU\obj\Debug\CalculatriceTU.pdb
