@@ -7,6 +7,8 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
+
+        //Test permettant de vérifier si le calcule de l'addition fonctionne
         [TestMethod]
         public void TestMethodAdditioner()
         {
@@ -14,6 +16,8 @@ namespace UnitTestProject1
             double result = c.Calculer(5, 5, "+");
             Assert.AreEqual(result, 10);
         }
+
+        //Test permettant de vérifier si le calcule de la soustraction fonctionne
         [TestMethod]
         public void TestMethodSoustraire()
         {
@@ -21,6 +25,8 @@ namespace UnitTestProject1
             double result = c.Calculer(5, 5, "-");
             Assert.AreEqual(result, 0);
         }
+
+        //Test permettant de vérifier si le calcule de division fonctionne
         [TestMethod]
         public void TestMethodDiviser()
         {
@@ -28,6 +34,8 @@ namespace UnitTestProject1
             double result = c.Calculer(5, 5, "/");
             Assert.AreEqual(result, 1);
         }
+
+        //Test permettant de vérifier si le calcule de multiplication fonctionne
         [TestMethod]
         public void TestMethodMultiplier()
         {
