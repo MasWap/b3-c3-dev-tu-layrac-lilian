@@ -5,71 +5,48 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static CalculatriceTU.Calcules;
 
 namespace CalculatriceTU
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            do
+
+            double num1 = 0;
+            double num2 = 0;
+            string operation = "";
+            double result = 0;
+            Exception monException = new Exception("Veuillez entrer un nombre valide");
+
+            try
             {
-                double num1 = 0;
-                double num2 = 0;
-                double result = 0;
-                Exception monException = new Exception("Veuillez entrer un nombre valide");
-
-                Console.Clear();
                 Console.WriteLine("---------------\nCalculatrice TU\n---------------");
+            Console.Write("Entrez le premier numéro: ");
 
-                try
-                {
-                    Console.Write("Entrez le premier numéro: ");
-                    num1 = Convert.ToDouble(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
-                    Console.Write("Entrez le second numéro: ");
-                    num2 = Convert.ToDouble(Console.ReadLine());
 
-                    Console.WriteLine("Entrez une option:\n\t+ : addition\n\t- : soustraction \n\t* : multiplication\n\t/ : division");
-                    Console.Write("Entrez une option:");
+            Console.Write("Entrez le second numéro: ");
+            num2 = Convert.ToDouble(Console.ReadLine());
 
-                    switch (Console.ReadLine())
-                    {
-                        case "+":
-                            result = num1 + num2;
-                            Console.WriteLine($"Votre résultat: {num1} + {num2} = " + result);
-                            break;
-                        case "-":
-                            result = num1 - num2;
-                            Console.WriteLine($"Votre résultat: {num1} - {num2} = " + result);
-                            break;
-                        case "*":
-                            result = num1 * num2;
-                            Console.WriteLine($"Votre résultat: {num1} * {num2} = " + result);
-                            break;
-                        case "/":
-                            result = num1 / num2;
-                            Console.WriteLine($"Votre résultat: {num1} / {num2} = " + result);
-                            break;
-                        default:
-                            Console.WriteLine("Option invalide");
-                            break;
-                    }
-                }
-                catch
-                {
-                    Console.WriteLine(monException);
-                }
-                Console.WriteLine("Voulez-vous continuer ? (O = oui, N = non): ");
+            Console.WriteLine("Entrez une option:\n\t+ : addition\n\t- : soustraction \n\t* : multiplication\n\t/ : division");
+            Console.Write("Entrez une option:");
 
-            } while (Console.ReadLine().ToUpper() == "O");
 
-            Console.Clear();
-            Console.WriteLine("Bye, l'application se fermera dans 2 secondes");
-            Thread.Sleep(2000);
-            Environment.Exit(0);
-            Console.ReadKey();
+            operation = Console.ReadLine();
+            }
+            catch
+            {
+                Console.WriteLine(monException);
+            }
 
+            Calcules c = new Calcules();
+            result = c.Calculer(num1, num2, operation);
+
+            Console.Write("Votre resultat est: " + result);
+            Console.ReadLine();
         }
     }
 }
