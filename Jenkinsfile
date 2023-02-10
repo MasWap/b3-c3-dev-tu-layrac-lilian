@@ -1,22 +1,24 @@
 pipeline {
     agent any
     stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/user/repo.git']]])
+            }
+        }
         stage('Build') {
             steps {
-                echo 'Building...'
-                sh './gradlew build'
+                sh 'dotnet build'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing...'
-                sh './gradlew test'
+                sh 'dotnet test'
             }
         }
-        stage('Deploy') {
+        stage('Publish') {
             steps {
-                echo 'Deploying...'
-                sh './gradlew deploy'
+                sh 'dotnet publish -c Release -o publish'
             }
         }
     }
